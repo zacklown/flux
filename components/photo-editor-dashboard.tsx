@@ -1520,9 +1520,9 @@ export function PhotoEditorDashboard() {
             <button className={styles.modalClose} onClick={() => setSupportOpen(false)} aria-label="Close support popup">
               <Icon name="close" />
             </button>
-            <p className={styles.modalEyebrow}>Support Policy</p>
+            <p className={styles.modalEyebrow}>Support</p>
             <h2>This is a personal project. Don&apos;t contact me if you don&apos;t know me.</h2>
-            <p className={styles.modalBody}>If you do know me, you already know the drill.</p>
+            <p className={styles.modalBody}>If you do know me, send me an email for support.</p>
             <a className={styles.modalLink} href="mailto:zacklown@gmail.com">
               zacklown@gmail.com
             </a>
